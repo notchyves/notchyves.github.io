@@ -3,7 +3,6 @@ const apiUrl = 'https://api.lanyard.rest/v1/users/983465136561991760';
 fetch(apiUrl)
     .then(response => response.json())
     .then(data => {
-        console.log(data);
 
         var status = "";
 
