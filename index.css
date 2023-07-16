@@ -135,12 +135,17 @@ a {
 
 .main-info {
     width: 100%;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .article {
     width: 75%;
     height: auto;
-    text-align: left;
+    text-align: center;
     margin: 0;
 }
 
